@@ -184,7 +184,7 @@ async function addFromData() {
     catch (err) {
         //console.error('ERROR:', err);
     }
-    //clearOld();
+    clearOld();
     matches.forEach((match) => {
         console.log(`AGE: ${Math.floor(Date.now() / 1000) - match.CreatedAt} Player1: ${match.Player1.name}, Player2: ${match.Player2.name}, WINNER1: ${match.Player1.isWinner},FinalTime: ${match.FinalTime}, EloChange: ${match.EloChange}, CreatedAt: ${match.CreatedAt}, id: ${match.id} `);
     });
