@@ -1,0 +1,55 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1581275,
+      "type": 2,
+      "category": "ANY",
+      "gameMode": "default",
+      "players": [
+        {
+          "uuid": "e53bf7c980bf47cd8c04914d06f842cf",
+          "nickname": "Tlixzy",
+          "roleType": 0,
+          "eloRate": 1091,
+          "eloRank": 798
+        },
+        {
+          "uuid": "2a15295a1d1342a5abee8b2ef43bd84b",
+          "nickname": "klazyt",
+          "roleType": 0,
+          "eloRate": 1139,
+          "eloRank": 770
+        }
+      ],
+      "spectators": [],
+      "result": {
+        "uuid": "2a15295a1d1342a5abee8b2ef43bd84b",
+        "time": 963885
+      },
+      "forfeited": true,
+      "decayed": false,
+      "rank": {
+        "season": null,
+        "allTime": null
+      },
+      "changes": [
+        {
+          "uuid": "2a15295a1d1342a5abee8b2ef43bd84b",
+          "change": 20,
+          "eloRate": 1119
+        },
+        {
+          "uuid": "e53bf7c980bf47cd8c04914d06f842cf",
+          "change": -20,
+          "eloRate": 1111
+        }
+      ],
+      "season": 7,
+      "date": 1736784540,
+      "seedType": "VILLAGE",
+      "bastionType": "STABLES",
+      "tag": null
+    }
+  ]
+}
